@@ -1,11 +1,11 @@
 [phantom]
 address=127.0.0.1 
 port=80
-rps_schedule=line(1, 1000, 1m)
+rps_schedule=line(1, 1000, 2m)
 uris=/csimple
 
 [rcheck]
 disk_limit=1024
 
-[loadosophia]
+[Loadosophia]
 token=LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQ0KTUdNQ0FRQUNFUUNIeXZTVHFhTWFIc3cvc21xdGJGdjVBZ01CQUFFQ0VDTkdXU2Q4c3pabTlkRmlrTnRkeWpzQw0KQ1FDMS9rTldlQXFkZHdJSkFMOERLck9NL0c0UEFnZ3BNTWdxM1BhQ0Z3SUpBS0RBMW9namlESkxBZ2tBcFdpVg0KbXdpM1NJQT0NCi0tLS0tRU5EIFJTQSBQUklW
