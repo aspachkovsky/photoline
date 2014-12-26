@@ -1,2 +1,3 @@
-bsu-ws-photoline
+Photoline
 ================
+API: https://github.com/aspachkovsky/photoline/wiki
