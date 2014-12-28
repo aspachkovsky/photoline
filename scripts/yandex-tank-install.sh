@@ -1,3 +1,4 @@
+#!/bin/bash
 grep -q -F 'deb http://ppa.launchpad.net/yandex-load/main/ubuntu trusty main' /etc/apt/sources.list || echo 'deb http://ppa.launchpad.net/yandex-load/main/ubuntu trusty main' >> /etc/apt/sources.list
 
 grep -q -F 'deb-src http://ppa.launchpad.net/yandex-load/main/ubuntu trusty main' /etc/apt/sources.list || echo 'deb-src http://ppa.launchpad.net/yandex-load/main/ubuntu trusty main' >> /etc/apt/sources.list
