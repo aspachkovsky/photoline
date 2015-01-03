@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get install-y  build-essential python-dev python-pip
+apt-get install -y build-essential python-dev python-pip
 pip install virtualenv
 sudo mkdir -p /var/www/mysite
 sudo chown -R aspachkovsky /var/www/mysite
