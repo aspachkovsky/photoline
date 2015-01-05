@@ -1,0 +1,10 @@
+#!/bin/bash
+nginx_pid=$(cat /run/nginx.pid)
+kill -QUIT $(cat /run/nginx.pid)
+
+uwsgi_pid=$(cat /run/uwsgi.pid)
+echo $uwsgi_pid
+kill uwsgi_pid
+
+nginx -c $PWD/photostorage/photostorage.conf
+uwsgi --ini $PWD/photostorage/photostorage.ini 
